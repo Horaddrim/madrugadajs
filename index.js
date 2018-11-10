@@ -20,7 +20,7 @@ async function xuxu() {
         ]);
     });
 
-    ronaldinho.listen(8080, () => console.log('Garçom escutando...'));
+    ronaldinho.listen(process.env.PORT, () => console.log('Garçom escutando...'));
 }
 
 xuxu();
